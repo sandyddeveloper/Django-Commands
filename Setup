@@ -1,0 +1,18 @@
+#Setup
+python -m venv myenv
+myenv\Script\activate
+pip install django
+django-admin startproject <projectname>
+cd <projectnamr>
+python manage.py startapp <appname>
+
+# to run the server
+python manage.py runsever
+
+#for migration
+python manage.py makemigrations
+python manage.py migrate
+
+#for creating SuperUser
+python manage.py createsuperuser
+
